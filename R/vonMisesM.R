@@ -30,7 +30,7 @@ rvonMisesM <- function(n, mu, kappa, theta) {
 #' @param mu mean direction of each component distribution.
 #' @param kappa non-negative numeric value for the concentration parameter of each component distribution.
 #' @param theta simplex vector for mixing ratios
-#' @return
+#' @return Probability density of the same length as object x
 #' @export
 #' @examples
 #' #rvonMisesM(pi, c(2.1, 3.4), c(1.0, 1.0), c(0.5, 0.5))

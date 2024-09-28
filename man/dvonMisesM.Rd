@@ -15,6 +15,9 @@ dvonMisesM(x, mu, kappa, theta)
 
 \item{theta}{simplex vector for mixing ratios}
 }
+\value{
+Probability density of the same length as object x
+}
 \description{
 \code{dvonMisesM} Density function for the von Mises mixture distribution
 }
